@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Trik {
 
 	public static void main(String[] args) {
-		int r=1,c=0,l=0; // กำหนดค่าเริ่มให้แก้วทั้ง 3 ใบ
+		int s=1,b=0,l=0; // กำหนดค่าเริ่มให้แก้วทั้ง 3 ใบ
 		int tmp=0; //ใช้สำหรับพักค่า เพื่อที่จะสลับค่า
 		String text = null; //ใช้รหับค่า A B C รูปแบบการสลับ
 		char Char;
@@ -16,9 +16,9 @@ public class Trik {
 			Char=text.charAt(i);
 			if(Char=='A'|| Char=='a')
 			{
-				tmp=r;
-				r=c;
-				c=tmp;
+				tmp=s;
+				s=b;
+			=tmp;
 			}
 			if(Char=='B'|| Char=='b')
 			{
